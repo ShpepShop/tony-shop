@@ -9,8 +9,8 @@ const multer = require('multer');
 require('dotenv').config();
 const app = express();
 const PORT = 3000;
-const ADMIN_USERNAME = process.env.ADMIN_USERNAME || 'admin';
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'password';
+const ADMIN_USERNAME = process.env.ADMIN_USERNAME || 'SHshopBoys';
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'PakiTurk01!';
 const SESSION_SECRET = process.env.SESSION_SECRET || crypto.randomBytes(64).toString('hex');
 
 let appConfig = {
